@@ -29,7 +29,7 @@ while hearts > 0:
     if guess not in random_word:
         hearts -= 1
         print("Wrong")
-        print("You have", + hearts, 'more guesses')
+        print("You have", + hearts, 'more chances left')
  
         if hearts == 0:
             print("You Loose")
