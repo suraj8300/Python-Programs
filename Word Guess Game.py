@@ -5,7 +5,7 @@ print("Welcome", "\nGoodluck for the game\n You need to guess the brand names.\n
 
 word = ('dell','lenovo','asus','hp','vivo','oppo','redmi','samsung')
 random_word = random.choice(word)
-print("You need to guess a brand name with ", len(random_word), "letters.")
+print("Guess a brand name with ", len(random_word), "letters.")
 guesses = ''
 hearts = 10
 
