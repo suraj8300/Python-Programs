@@ -14,7 +14,7 @@ while hearts > 0:
     failed = 0
     for char in random_word:
         if char in guesses:
-            print(char, end=' ')
+            print(char, end='')
         else:
             print("_")
             failed+=1
